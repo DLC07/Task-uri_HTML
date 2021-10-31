@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+    <link rel = "stylesheet" href = "Task1.css">
+    <script type="text/javascript">
+        let image_tracker = 't';
+        function changeImage(){
+            let image = document.getElementById('Image1');
+            if(image_tracker == 't'){
+                image.src = "Minimalist2.jpg";
+                image_tracker = 'f';
+            }
+            else{
+                image.src = "Minimalist1.jpg";
+                image_tracker = 't';
+            }
+        }
+     </script>
+</head>
+    <body>
+        <div>
+            <img src ="Minimalist1.jpg" class = "center" alt = "Imaginea_1" id = "Image1" onclick = "changeImage()">
+        </div>
+    </body>
+    
+</html>

@@ -1,0 +1,32 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    box-sizing: border-box;
+}
+
+.button{
+    text-align: center;
+    position: relative;
+    top: 108%;
+    padding: 30px 90px;
+    transform: translateY(-100%);
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+#container{
+    min-height: 100vh;
+    text-align: center;
+}
+
+.top{
+    background-color: darkred;
+    height: 50vh;
+}
+
+.bottom{
+    background-color: green;
+    height: 50vh;
+}

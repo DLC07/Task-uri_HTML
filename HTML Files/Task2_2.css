@@ -1,0 +1,32 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    box-sizing: border-box;
+}
+.button{
+    text-align: center;
+    top: 46%;
+    right: 43%;
+    position: absolute;
+    padding: 30px 90px;
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+}
+
+#container{
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+}
+
+.left{
+    background-color: blue;
+    width: 50vw;
+}
+
+.right{
+    background-color: yellow;
+    width: 50vw;
+}
